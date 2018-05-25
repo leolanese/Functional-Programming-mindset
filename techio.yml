@@ -3,7 +3,7 @@ cover: cover.png
 plan:
   - title: Getting started
     plan:
-      - title: Create a playground
+      - title: test
         statement: markdowns/test.md
-      - title: Create a playground
-        statement: markdowns/test.md
+      - title: test2
+        statement: markdowns/test2.md
