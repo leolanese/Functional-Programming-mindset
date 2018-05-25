@@ -4,16 +4,6 @@ plan:
   - title: Getting started
     plan:
       - title: Create a playground
-        statement: getting started/tutorial-1-create.md
-      - title: Add a quiz
-        statement: getting started/tutorial-2-quiz.md
-      - title: Add a coding exercise
-        statement: getting started/tutorial-3-coding-exercise.md
-      - title: Add a viewer
-        statement: getting started/tutorial-4-viewer.md
-  - title: Reference
-    plan:
-      - title: techio.yml
-        statement: reference/reference-techioyml.md
-      - title: Runner Reference
-        statement: reference/reference-runner.md
+        statement: markdowns/test.md
+      - title: Create a playground
+        statement: markdowns/test.md
