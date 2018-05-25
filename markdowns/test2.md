@@ -1,59 +1,27 @@
-# Higher Order Functions
-Higher Order Functions are functions that take other **functions as parameters**, Mind Blown 💥.  
-We are going to discover how these functions are useful through some examples; in particular, we are going to recreate the logic of the Amazon checkout.  
+# Currying
+Currying is the technique of translating the evaluation of a function that takes multiple arguments into **evaluating a sequence of functions, each with a single argument**.
 
-# Filter
-Filter is a method of arrays. It accepts as argument a **test function** which should return a boolean, and returns a new array with only the elements for which the test function returned `true`.  
+This becomes very easy using lambda functions and closures. Let's dive straight into code:
 
-Here is an example:  
-@[Get the even numbers in an array]({ "stubs": ["higher/isEven.js"], "command": "node higher/isEven.js" })
+@[Get the even numbers in an array]({ "stubs": ["currying/example1.js"], "command": "node currying/example1.js" })
 
-As you can see, the function `isEven` doesn't need to include the logic to handle arrays. This is the great thing about higher order functions: the decision logic is kept separate from the function applying it, so we can reuse it.  
+So why is this useful? Because we are now able to pass the arguments at **different points in time**; this means that we can use currying to "construct" a function.
 
-Let's try to implement our first piece of logic for the amazon cart: extracting from the `cart` array all the prime items
-
-@[Implement `isPrime` and `primeItems`, for the latter use `filter`. The file is on the right]({ "stubs": ["higher/isPrime.js"], "command": "node_modules/mocha/bin/mocha higher/isPrime.spec.js --reporter list",  "layout": "aside" })
-
-# Reject
-We can now reuse the `isPrime` function in conjunction with `reject` to get all the non-prime items in the cart. The reject function is the **opposite of the filter**: it creates an array with all the elements but those that satisfy the condition.  
-
-Reject is not a built-in function in js, we are going to use the library `underscore.js` to have it. The syntax is slightly different: `_.reject(list, testFunction)` where `_` is the underscore library
-
-@[Implement the `notPrimeItems` function using `reject` (you can use functions defined in the previous snippet)]({ "stubs": ["higher/isNotPrime.js", "higher/isPrime.js"], "command": "node_modules/mocha/bin/mocha higher/isNotPrime.spec.js --reporter list" , "layout": "aside" })
-
-As an optional exercise, you could also implement reject yourself using filter.
-
-@[Implement the `reject` function using `filter`]({ "stubs": ["higher/implementReject.js"], "command": "node_modules/mocha/bin/mocha higher/implementReject.spec.js --reporter list"})
-
-# Lambda functions
-When defining short functions, it's often convenient to use an alternative syntax called lambda function that allows us to define anonymous functions in a more compact way: `( /*arguments*/ ) => { /*code*/ }`. If our function is only a return statement, we can even strip the curly brackets and avoid writing `return`: `( /*arguments*/ ) => /*value to return*/`.
-
-We can rewrite the `isEven` snippet from before with a lambda function:
-
-@[Get the even numbers in an array]({ "stubs": ["higher/isEvenLambda.js"], "command": "node higher/isEvenLambda.js" })
-
-
-# Map
-Another very useful higher order function is `map`: **it takes a function and applies it to all the elements of an array**.  
-The syntax is identical to `filter`  
 E.g.
+@[Generic filter callback to check any property of an object]({ "stubs": ["currying/example2.js"], "command": "node currying/example2.js" })
 
-@[Squaring all the elements of an array]({ "stubs": ["higher/square.js"], "command": "node higher/square.js"})
+And now, time to get your hands dirty: remember the `applyCoupon` function we wrote in the previous chapter? It was very specific; now we want to create a curryable function that takes as arguments (in this order) category, discount between 0 and 1 (a 2$ item with a 0.1 discount will cost 1.8$) and an item, and that returns the item with the correct price.  
+E.g.
+```js
+const item = {
+           "name": "Biscuits",
+           "type": "regular",
+           "category": "food",
+           "price": 2.0
+         }
+         
+applyCoupon("food")(0.1)(item).price === 1.8
+```
+Remember to apply the discount only to the right items!
 
-Now back to our amazon example: we can use `map` to apply a coupon. The `applyCoupon` function should apply a 20% discount on all the tech items.
-
-@[Implement the applyCoupon function]({ "stubs": ["higher/coupon.js"], "command": "node_modules/mocha/bin/mocha higher/coupon.spec.js --reporter list",  "layout": "aside" })
-
-# Reduce: one function to rule them all
-Reduce is the last higher order function we are going to discuss and it's also the most powerful: in fact, you can implement **any list transformation** with reduce.  
-Reduce takes in a callback function and a starting value, the callback function takes as arguments an accumulator and the value of the current element of the array and returns the accumulator to be used in the next cycle. The value returned from the last call of the callback function is the value returned by `reduce`.
-
-It's easier if I show you some examples:
-
-@[Multiplying all the elements of an array]({ "stubs": ["higher/multiply.js"], "command": "node higher/multiply.js"})
-@[Filtering only even numbers]({ "stubs": ["higher/isEvenReduce.js"], "command": "node higher/isEvenReduce.js"})
-@[Implementing map with reduce]({ "stubs": ["higher/implementMap.js"], "command": "node higher/implementMap.js"})
-
-Now to complete our amazon workflow, write a function that returns the total cost of the order.
-
-@[Implement the `totalCost` function using `reduce`]({ "stubs": ["higher/totalCost.js"], "command": "node_modules/mocha/bin/mocha higher/totalCost.spec.js --reporter list" , "layout": "aside" })
+@[Implement `applyCoupon` as a curriable function]({ "stubs": ["currying/applyCoupon2.js"], "command": "node_modules/mocha/bin/mocha currying/applyCoupon2.spec.js --reporter list"})
