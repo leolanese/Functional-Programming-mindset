@@ -1,8 +1,16 @@
+1) 
 ```javascript runnable
 var a = 2;
 var b = 4;
 console.log(a+b);
 ```
+
+2) Game: Pure and Impure - The Side @effect game
+?[What is the answer to Life, the Universe and Everything?]
+-[ ] There is no answer to that!
+-[ ] Sleep and eat
+-[x] Easy, this is 42
+-[ ] Peace & Love
 	
 
 # Welcome!
