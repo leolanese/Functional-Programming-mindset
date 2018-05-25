@@ -1,5 +1,8 @@
-<iframe width="100%" frameborder="0" scrolling="no" allowtransparency="true" style="visibility: hidden" src="https://tech.io/playground-widget/bd3df5cc3654c4dc2f6cb3cb69f7461f0892/recursion/89362/Countdown"></iframe>
-<script>if(typeof window.techioScriptInjected==="undefined"){window.techioScriptInjected=true;var d=document,s=d.createElement("script");s.src="https://files.codingame.com/codingame/iframe-v-1-4.js";(d.head||d.body).appendChild(s);}</script>
+```javascript runnable
+var a = 2;
+var b = 4;
+console.log(a+b);
+```
 	
 
 # Welcome!
