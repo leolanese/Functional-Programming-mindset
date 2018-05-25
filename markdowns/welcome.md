@@ -6,6 +6,8 @@ console.log(a+b);
 ```
 
 2) Game: Pure and Impure - The Side @effect game
+
+
 ?[What is the answer to Life, the Universe and Everything?]
 -[ ] There is no answer to that!
 -[ ] Sleep and eat
