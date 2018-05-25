@@ -1,0 +1,1 @@
+@[Implement `isPrime` and `primeItems`, for the latter use `filter`. The file is on the right]({ "stubs": ["higher/isPrime.js"], "command": "node_modules/mocha/bin/mocha higher/isPrime.spec.js --reporter list",  "layout": "aside" })
