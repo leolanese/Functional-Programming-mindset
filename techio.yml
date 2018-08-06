@@ -6,7 +6,7 @@ plan:
   - title: Getting started # Set the page title
     statement: markdowns/test.md # Set the file path to the page content
   - title: test # Set the page title
-    statement: markdowns/test.md
+    statement: markdowns/test2.md
         
 # Settings for your programming projects and the associated Docker images
 projects:
