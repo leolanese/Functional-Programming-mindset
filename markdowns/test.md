@@ -5,7 +5,7 @@ console.log(a+b);
 ```
 
 asdasdasd?:
-@[Get the even numbers in an array]({ "stubs": ["pure/pure1.js"], "command": "node pure/pure.js" })
+@[Get the even numbers in an array]({ "stubs": ["pure/pure.js"], "command": "node pure/pure.js" })
 
 
 Now time for some code:
