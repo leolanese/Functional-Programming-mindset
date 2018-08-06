@@ -5,8 +5,6 @@ console.log(a+b);
 ```
 
 Now time for some code:
-@[Implement the pure function `greet` following the specification]({ "stubs": ["pure/pure1.js"], "command": "node_modules/mocha/bin/mocha pure/pure1.spec.js --reporter list" })
-
 @[Get the even numbers in an array]({ "stubs": ["pure/pure1.js"], "command": "node pure/pure1.js" })
 
 
