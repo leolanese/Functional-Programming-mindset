@@ -12,12 +12,15 @@ Now time for some code:
 @[Get the even numbers in an array]({ "stubs": ["pure/pure1.js"], "command": "node pure/pure1.js" })
 
 
-?[Pure or Impure?]
+
+?[
 ```javascript
 var a = 2;
 var b = 4;
 console.log(a+b);
 ```
+]
+
 -[ ] There is no answer to that!
 -[ ] Sleep and eat
 -[x] Easy, this is 42
