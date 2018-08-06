@@ -1,9 +1,18 @@
-title : TEST Documentation
+title : FP workshop
 cover: cover.png
+
+# Table of contents
 plan:
-  - title: Getting started
-    plan:
-      - title: test
-        statement: markdowns/test.md
-      - title: test2
-        statement: markdowns/test2.md
+  - title: Getting started # Set the page title
+    statement: markdowns/test.md # Set the file path to the page content
+  - title: test # Set the page title
+    statement: markdowns/test.md
+        
+# Settings for your programming projects and the associated Docker images
+projects:
+  nodejs:
+    root: "/nodejs-project"
+    # Set the docker image. This image runs mocha tests using this syntax:
+    # @[Code Editor Title]({"stubs": ["EditorFile1.js", "EditorFile2.js", ...], "command": "node_modules/mocha/bin/mocha TestFile.js --reporter list"})
+    # More details here: https://github.com/TechDotIO/node-npm-runner
+    runner: techio/node-npm-runner:latest
