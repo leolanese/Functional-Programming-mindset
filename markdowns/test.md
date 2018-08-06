@@ -9,7 +9,7 @@ asdasdasd?:
 
 
 Now time for some code:
-@[Get the even numbers in an array]({ "stubs": ["pure/pure1.js"], "command": "node pure/pure1.js" })
+@[Get the even numbers in an array]({ "stubs": ["pure/impure.js"], "command": "node pure/impure.js" })
 
 
 
