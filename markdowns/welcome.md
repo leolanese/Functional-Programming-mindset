@@ -1,7 +1,7 @@
 1) 
 ```javascript runnable
 var a = 2;
-var b = 4;
+var b = 6;
 console.log(a+b);
 ```
 
