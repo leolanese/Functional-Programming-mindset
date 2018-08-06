@@ -6,7 +6,7 @@ console.log(a+b);
 ```
 
 Now time for some code:
-@[Get the even numbers in an array]({ "stubs": ["examples/1.js"], "command": "node examples/1.js" })
+@[Get the even numbers in an array]({ "stubs": ["examples/1.js"]})
 
 2) Game: Pure and Impure
 
