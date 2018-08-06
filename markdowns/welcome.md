@@ -5,7 +5,10 @@ var b = 4;
 console.log(a+b);
 ```
 
-2) Game: Pure and Impure - The Side @effect game
+Now time for some code:
+@[Implement the pure function `greet` following the specification]({ "stubs": ["examples/1.js"] })
+
+2) Game: Pure and Impure
 
 
 ?[What is the answer to Life, the Universe and Everything?]
