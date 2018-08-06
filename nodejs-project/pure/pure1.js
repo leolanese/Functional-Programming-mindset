@@ -1,1 +1,4 @@
-console.log('pure/pure1.js ')
+// pure
+function add2 (x){
+  return x + 2
+}
