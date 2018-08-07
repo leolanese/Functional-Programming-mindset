@@ -1,1 +1,1 @@
-# techio-basic-template
+# Functional Programming: "Functional mindset"
