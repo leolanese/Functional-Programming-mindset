@@ -3,13 +3,13 @@ cover: FP.png
 
 # Table of contents
 plan:
-  - title: Welcome
-    statement: markdowns/01.md 
-  - title: Introduction # Set the page title
-    statement: markdowns/02.md # Set the file path to the page content
-  - title: Getting started 
+  - title: Welcome. Introduction. # Set the page title
+    statement: markdowns/01.md # Set the file path to the page content
+  - title: Functional Programming Definition.
+    statement: markdowns/02.md 
+  - title: FP Game: The Pure/Impure game.
     statement: markdowns/03.md 
-  - title: test # Set the page title
+  - title: FP Game: Thinking Functionally game. 
     statement: markdowns/04.md
         
 # Settings for your programming projects and the associated Docker images
