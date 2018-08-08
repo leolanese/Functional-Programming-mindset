@@ -7,9 +7,9 @@ plan:
     statement: markdowns/01.md # Set the file path to the page content
   - title: Functional Programming Definition.
     statement: markdowns/02.md 
-  - title: FP Game: A Pure game.
+  - title: A Pure game.
     statement: markdowns/03.md 
-  - title: FP Game: Thinking Functionally game. 
+  - title: Thinking Functionally game. 
     statement: markdowns/04.md
         
 # Settings for your programming projects and the associated Docker images
