@@ -1,5 +1,6 @@
+// shared-state: 2 -> 3 -> 6
 const x = {
-  val: 2; // shared-state: 2 -> 3 -> 6
+  val: 2 
 };
 const x1 = () => x.val += 1;
 const x2 = () => x.val *= 2;
