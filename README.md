@@ -20,4 +20,4 @@ Redux the core counts similar principle. Redux organize the application state in
 Please, join us. Let’s have an easy introduction to Functional Programming, chat about these ideas, what this style of writing code is and how could help us to produce a more predictable code.
 
 Presentation:
-[https://tech.io/playgrounds/24002/fp-workshop](https://tech.io/playgrounds/24002/fp-workshop Presentation Link)
+https://tech.io/playgrounds/24002/fp-workshop
