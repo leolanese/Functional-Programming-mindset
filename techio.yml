@@ -12,8 +12,10 @@ plan:
   - title: The Pure game. 
     statement: markdowns/04.md
   - title: Thinking Functionally game. 
-    statement: markdowns/04.md
-           
+    statement: markdowns/05.md
+  - title: Questions. 
+    statement: markdowns/06.md
+    
 # Settings for your programming projects and the associated Docker images
 projects:
   nodejs:
