@@ -1,5 +1,3 @@
-// BETTER 
-// When you avoid shared state, the timing and order of function calls don’t change the result of calling the function. 
 const x = {
   val: 2
 };
