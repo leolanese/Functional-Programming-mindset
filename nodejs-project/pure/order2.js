@@ -1,10 +1,10 @@
-const y = {
+const x = {
   val: 2
 };
-const y1 = () => y.val += 1;
-const y2 = () => y.val *= 2;
+const x1 = () => x.val += 1;
+const x2 = () => x.val *= 2;
 // ...the order of the function calls is reversed...
-y2();
-y1();
+x2();
+x1();
 // which changes the resulting value:
-console.log(y.val); // 5
+console.log(x.val); // 5
