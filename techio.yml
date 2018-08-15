@@ -1,26 +1,21 @@
-title : FP workshop
+title: FP workshop
 cover: FP.png
-
-# Table of contents
 plan:
-  - title: Welcome. # Set the page title
-    statement: markdowns/01.md # Set the file path to the page content
-  - title: Introduction 
-    statement: markdowns/02.md 
-  - title: Functional Programming Definition. 
-    statement: markdowns/03.md 
-  - title: The Pure game. 
-    statement: markdowns/04.md
-  - title: Thinking Functionally game. 
-    statement: markdowns/05.md
-  - title: Questions. 
-    statement: markdowns/06.md
-    
-# Settings for your programming projects and the associated Docker images
+- title: Welcome.
+  statement: markdowns/01.md
+- title: Introduction
+  statement: markdowns/02.md
+- title: Functional Programming Definition.
+  statement: markdowns/03.md
+- title: The Pure game.
+  statement: markdowns/04.md
+- title: Thinking Functionally, the mindset game.
+  statement: markdowns/05.md
+- title: Questions.
+  statement: markdowns/06.md
 projects:
   nodejs:
-    root: "/nodejs-project"
-    # Set the docker image. This image runs mocha tests using this syntax:
-    # @[Code Editor Title]({"stubs": ["EditorFile1.js", "EditorFile2.js", ...], "command": "node_modules/mocha/bin/mocha TestFile.js --reporter list"})
-    # More details here: https://github.com/TechDotIO/node-npm-runner
-    runner: techio/node-npm-runner:latest
+    root: /nodejs-project
+    runner:
+      name: techio/node-npm-runner
+      version: latest
