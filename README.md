@@ -1,7 +1,9 @@
 # Functional Programming: "Functional mindset"
 
+
 "Everyone should go back to COBOL! Make America Procedural Again!"
 ~ @anonymous
+
 
 A large program is a costly program, and not just because of the time, it takes to build. Size almost always involves complexity, and complexity could confuse programmers. Confused programmers, in turn, tend to introduce mistakes (bugs) into programs. Functional Programming can help to make the code predictable and easy to debug, abstract control flows and operations on data with functions.
 
@@ -12,7 +14,7 @@ the motivation for its architecture and unidirectional data flow) and Angular (w
 
 Angular is being advertised as a framework that gives you everything but teaches us a little to none about FP. Angular API is highly influenced by OOP ideas and less influenced by FP ideas, but according to Alan Kay, the investigator for all modern OOP, the essence of OOP is: Encapsulation and Message Passing. So OOP is just another approach to "avoiding sharing mutable state and side-effects".
 
-if we pick up Angular, Redux & @ngrx/store, you will actually encounter key functional concepts at the core of what you learn: "pure functions", "immutability", "state", "mutation", "composition" or "reactive". We like more the idea of triggering "actions" that will invoke a "reducer" (pure function & immutable) and/or "@effect" (no-pure Class & immutable) in Redux than invoking a method in a Service Class in Angular.
+if we pick up Angular, Redux & @ngrx/store, you will actually encounter key functional concepts at the core of what you learn: "pure functions", "immutability", "state", "mutation", "composition" or "reactive". We like more the idea of triggering "actions" that will invoke a "reducer" (pure function & immutable) and/or "@effect" (no-pure Class & immutable) in Redux than invoking a method in a Service Class in Angular. In fact other popular frameworks like VueJS, which use Vuex (similar to Redux) use the mutate the state in a predictable fashion way, it has a reactive state which means that you can modify the state in an imperative way.
 
 We already have RxJS reactive extensions bundled up in your Angular application. Embracing their power will allow you to use the principles of Redux without having the need to introduce specific terminologies like actions and reducers.
 Redux the core counts similar principle. Redux organize the application state into simple objects and update this read-only state by replacing it with a new state (no mutate). @ngrx/store is a RxJS stream, is a Redux implementation for Angular. Implements the Redux architectural pattern and principles using the well-known RxJS observables of Angular.
