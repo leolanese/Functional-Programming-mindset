@@ -9,8 +9,10 @@ plan:
   statement: markdowns/03.md
 - title: Thinking Functionally, the pure game.
   statement: markdowns/04.md
-- title: Thanks!
+- title: Functional mindset
   statement: markdowns/05.md
+- title: Thanks!
+  statement: markdowns/06.md
 projects:
   nodejs:
     root: /nodejs-project
