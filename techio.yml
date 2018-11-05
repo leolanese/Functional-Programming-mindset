@@ -1,4 +1,4 @@
-title: FP workshop
+title: Becoming Functional
 cover: FP.png
 plan:
 - title: Welcome.
@@ -9,7 +9,7 @@ plan:
   statement: markdowns/03.md
 - title: Thinking Functionally, the mindset game.
   statement: markdowns/04.md
-- title: Thinking Functionally, the mindset game.
+- title: Lets get start it!
   statement: markdowns/05.md
 - title: Questions.
   statement: markdowns/06.md
