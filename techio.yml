@@ -11,8 +11,7 @@ plan:
   statement: markdowns/04.md
 - title: Lets get start it!
   statement: markdowns/05.md
-- title: Questions.
-  statement: markdowns/06.md
+
 projects:
   nodejs:
     root: /nodejs-project
