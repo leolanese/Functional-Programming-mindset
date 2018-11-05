@@ -7,7 +7,7 @@ plan:
   statement: markdowns/02.md
 - title: Functional Programming Definition.
   statement: markdowns/03.md
-- title: The Pure game.
+- title: Thinking Functionally, the mindset game.
   statement: markdowns/04.md
 - title: Thinking Functionally, the mindset game.
   statement: markdowns/05.md
