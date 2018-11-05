@@ -9,7 +9,7 @@ plan:
   statement: markdowns/03.md
 - title: Thinking Functionally, the pure game.
   statement: markdowns/04.md
-- title: Lets get start it!
+- title: Thanks!
   statement: markdowns/05.md
 projects:
   nodejs:
