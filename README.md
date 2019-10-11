@@ -23,8 +23,9 @@ Redux the core counts similar principle. Redux organize the application state in
 
 Please, join us. Let’s have an easy introduction to Functional Programming, chat about these ideas, what this style of writing code is and how could help us to produce a more predictable code.
 
-*1 Redux (@ngrx/store) best practices, https://blog.strongbrew.io/Redux-best-practices/
-*2 So What About Inheritance?, https://reactjs.org/docs/composition-vs-inheritance.html#so-what-about-inheritance
+</br>
+*1 Redux (@ngrx/store) best practices, https://blog.strongbrew.io/Redux-best-practices/ </br>
+*2 So What About Inheritance?, https://reactjs.org/docs/composition-vs-inheritance.html#so-what-about-inheritance </br>
 
 
 ### Presentation:
