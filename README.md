@@ -11,13 +11,15 @@ Functional Programming is about pulling programs apart and reassembling them fro
 
 Functional Programming it is not new, but becomes more popular these days, because lies at the heart of both of the dominant frameworks out there: <br/>
 <br/>
-- React: <br/>
+
+#### React: <br/>
 - Using "immutability" as a principle and avoiding shared mutable DOM is the motivation for its architecture and unidirectional data flow. </br> also using immutability "read-only props" (inputs argunment of a Component granting inmmutability and avoiding side-effects) <br/>
 - The react-redux connect() function is a purely "curried" one *0<br/>
 - Using "memoization" to cache the results of a component render() method, or simply the returned JSX of a functional component, so Memoization can be applied to both class and functional components, the feature is implemented has HOCs and React Hooks.<br/>
 React's development guidelines promote the creation of stateless component so this should grant that the output of a component only depends on its 'props'. A "stateless" component looks a lot like a "pure function", and indeed it is. So, as we can see React promotes more Functional-Oriented than Object-Oriented practices *2 <br/>
 <br/>
-- Angular:<br/> 
+
+#### Angular:<br/> 
 - Have unidirectional data flow as well (also do not encorage 2 ways data binding) 
 - Using RxJS is a library of utility operators that act on streams by way of Higher-order-Functions, its used extensively throughout Angular, but Angular API is highly influenced by OOP ideas and less influenced by FP ideas, but according to "Alan Kay", the investigator for all modern OOP, "The essence of OOP is: Encapsulation and Message Passing. So OOP is just another approach to "avoiding sharing mutable state and side-effects".<br/>
 We already have RxJS reactive extensions bundled up in your Angular application. Embracing their power will allow you to use the principles of Redux without having the need to introduce specific terminologies like actions and reducers.<br/>
