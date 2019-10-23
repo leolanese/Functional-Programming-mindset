@@ -44,8 +44,8 @@ https://tech.io/playgrounds/24002/fp-workshop</br>
 --
 
 ### { 'Leo Lanese',
-###  'I Build Inspiring Responsive Reactive Solutions',
-###  'LONDON, UK' }
+###   'I Build Inspiring Responsive Reactive Solutions',
+###   'London, UK' }
 
 ### Portfolio<br>
 <a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a><br>
