@@ -18,11 +18,13 @@ Functional Programming it is not new, but becomes more popular these days, becau
 - Using "memoization" to cache the results of a component render() method, or simply the returned JSX of a functional component, so Memoization can be applied to both class and functional components, the feature is implemented has HOCs and React Hooks, 
 - Using class base component .setState(previousState: {}, props: {}) to manage the state and avoid state mutations. Also, after React 16.8 there we can use React Hooks that includes several 'use*' allow us to add functionality to functional components instead Class base components like
  useState(currentState: {}, newState: {}) ) <br>
--React's development guidelines promote the creation of stateless component so this should grant that the output of a component only depends on its 'props'. A "stateless" component looks a lot like a "pure function", and indeed it is. So, as we can see React promotes more Functional-Oriented than Object-Oriented practices *2 <br/>
+- React's development guidelines promote the creation of stateless component so this should grant that the output of a component only depends on its 'props'. 
+A "stateless" component looks a lot like a "pure function", and indeed it is. So, as we can see React promotes more Functional-Oriented than Object-Oriented practices *2 <br/>
+- React have unidirectional data flow, but 2 way data binding can be achieved (eg: <input onChange(props: changed) value(props.name) />) 
 <br/>
 
 #### Angular:<br/> 
-- Have unidirectional data flow as well (also do not encorage 2 ways data binding) 
+- Have unidirectional data flow as well, 2 way data binding is not encoraged and is considered as a security hole.
 - Using RxJS is a library of utility operators that act on streams by way of Higher-order-Functions, its used extensively throughout Angular, but Angular API is highly influenced by OOP ideas and less influenced by FP ideas, but according to "Alan Kay", the investigator for all modern OOP, "The essence of OOP is: Encapsulation and Message Passing. So OOP is just another approach to "avoiding sharing mutable state and side-effects".<br/>
 We already have RxJS reactive extensions bundled up in your Angular application. Embracing their power will allow you to use the principles of Redux without having the need to introduce specific terminologies like actions and reducers.<br/>
 Redux the core counts similar principle. Redux organize the application state into simple objects and update this read-only state by replacing it with a new state (no mutate). @ngrx/store is a RxJS stream, is a Redux implementation for Angular. Implements the Redux architectural pattern and principles using the well-known RxJS observables of Angular.<br/>
