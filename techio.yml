@@ -1,4 +1,4 @@
-title: FP workshop
+title: Functional (Programming) mindset
 cover: FP.png
 plan:
 - title: Welcome.
@@ -7,11 +7,11 @@ plan:
   statement: markdowns/02.md
 - title: Functional Programming Definition.
   statement: markdowns/03.md
-- title: The Pure game.
+- title: Thinking Functionally, the pure game.
   statement: markdowns/04.md
-- title: Thinking Functionally, the mindset game.
+- title: Functional mindset
   statement: markdowns/05.md
-- title: Questions.
+- title: Thanks!
   statement: markdowns/06.md
 projects:
   nodejs:
