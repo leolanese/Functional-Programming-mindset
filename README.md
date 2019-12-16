@@ -65,6 +65,7 @@ A "stateless" component looks a lot like a "pure function", and indeed it is. So
 ```javascript
 <input onChange(props: changed) value(props.name) />
 ```
+
 - React also have a commonly used lifecycle method: render()
 ```javascript
 // class component
@@ -83,7 +84,6 @@ class MyComponent extends Component {
     )
   }
 }
-
 ```
 <br />
 
@@ -93,6 +93,7 @@ class MyComponent extends Component {
 - Have unidirectional data flow as well. It has the option of [()] two-way data binding but it is not encouraged because of performance could becoming an issue as applications grew, and keeping track of the data flow could be an even bigger problem.
 <br/>
 - Strict immutability: Angular gives us the option to utilize a centralized state tree with effortless cooperation of change detection property in the @Component decorator of ChangeDetectionStrategy property, by setting the .onPush() instead of the pre-defined .default() change detection strategy we are signing a contract with Angular that obliges us to work with immutable objects, so we explicitly telling Angular that our component only depends on its inputs and all of them are immutables.
+
 ```javascript
 @Component({
   selector: 'app-root',
@@ -104,6 +105,7 @@ export class AppComponent {
     constructor(){}
 }
 ```
+
 Like React, we can also re-enforce the concept of immutability using Facebook's immutability.JS, let's remember that 'const' declaration protects against reassignment but not against mutation.
 
 <br/>
@@ -114,6 +116,7 @@ Pure pipes like are like pure functions: They produce the same output when invok
 <br/>
 - We already have RxJS reactive extensions bundled up in our Angular application. Embracing their power will allow us to use the principles of Redux without having the need to introduce specific terminologies like actions and reducers.
 - We have data-pipeline, we use the "pipable" operators that are provided by the RxJS library to transform data from producer to consumer by using functional programming.
+
 ```javascript
 import { from } from './rxjs';
 import { map } from './rxjs';
@@ -124,6 +127,7 @@ from(fooValues)
   .pipe(map(({n}) => n)) // data-pipeline
   .subscribe(x => console.log(x));
 ```
+
 <br/>
 - As we already mention. Redux the core counts similar principle. 
 
