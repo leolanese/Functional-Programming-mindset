@@ -175,7 +175,6 @@ https://tech.io/playgrounds/24002/fp-workshop</br>
        'Building Inspiring Responsive Reactive Solutions',<br>
        'London, UK' }<br>
 </h5>
-</br>
 <h5>Twitter:
 <a href="http://twitter.com/LeoLaneseltd" target="_blank">twitter.com/LeoLaneseltd</a>
 </h5>
