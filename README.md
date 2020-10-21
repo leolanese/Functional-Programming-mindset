@@ -171,9 +171,7 @@ https://tech.io/playgrounds/24002/fp-workshop</br>
 
 ---
 
-### Further FP information:
-
-### LINKS
+### Further Functional Programming information:
 
 * Goodbye, OOP
 https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53
@@ -194,17 +192,11 @@ http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.h
 * Essential Functions Support
 https://mostly-adequate.gitbooks.io/mostly-adequate-guide/appendix_a.html
 
----
-###  LINKS
-
 * Functional Programming HOWTO
 https://docs.python.org/3/howto/functional.html
 
 * Master the JavaScript Interview: What is Functional Programming?
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
-
-* The rise of functional programming & the decline of Angular 2.0
-http://blog.wolksoftware.com/the-rise-of-functional-programming-and-the-death-of-angularjs
 
 * JavaScript Functional Programming Cookbook (ES6)
 https://github.com/js-functional/js-funcional
