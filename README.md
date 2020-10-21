@@ -130,7 +130,7 @@ from(fooValues)
 ```
 
 <br/>
-* As we already mention. Redux the core counts similar principle. 
+* As we already mention. `Redux the core counts similar principle`. 
 
 * Redux & Context API: If you just want to pass data through your application, React's Context API does a pretty great job.
 On a small application, Redux's formalism may be overkill. However, Redux really shines when we get some of the side effects and debugging starts to become a routine task.
@@ -163,10 +163,10 @@ In fact, and just to finish it, other popular frameworks like VueJS, which use V
 
 #### Conclusion
 
-Functional Programming becomes, for very good reasons, an important trend to learn and it relies on the essence of the most popular frameworks, and this becomes even more obvious when the application starts escalating to an enterprise-level and complexity and number of components that communicates and interact each-other requires communication across remote-siblings relying on having the same updated and unique data.
+`Functional Programming becomes, for very good reasons, an important trend to learn and it relies on the essence of the most popular frameworks`, and` this becomes even more obvious` when the application starts escalating `to an enterprise-level` and complexity and number of components that communicates and interact each-other requires communication across remote-siblings relying on having the same updated and unique data.
 
 
-### DEMO/ Presentation:
+### Workshop/Presentation:
 https://tech.io/playgrounds/24002/fp-workshop</br>
 
 ---
@@ -180,7 +180,7 @@ https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53
 Mostly Adequate Guide to Functional Programming
 https://mostly-adequate.gitbooks.io/mostly-adequate-guide/
 
-* Thinking in Ramda
+* Thinking in Ramda (R)
 http://randycoulman.com/blog/categories/thinking-in-ramda/
 
 * Professor Frisby Introduces Composable Functional JavaScript
@@ -215,9 +215,6 @@ https://www.slideshare.net/LuisAtencio3/thinking-functionally-with-javascript
 
 * functional programming
 https://www.slideshare.net/LuisAtencio3/379008rc217functionalprogramming
-
-* Ramda playground:
-http://ramdajs.com/repl/
 
 * functional-programming-for-the-advanced-beginner
 https://www.slideshare.net/LuisAtencio3/functional-programming-for-the-advanced-beginner
