@@ -169,6 +169,73 @@ Functional Programming becomes, for very good reasons, an important trend to lea
 ### DEMO/ Presentation:
 https://tech.io/playgrounds/24002/fp-workshop</br>
 
+---
+
+### Further FP information:
+
+### LINKS
+
+* Goodbye, OOP
+https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53
+
+* BOOKS:
+Mostly Adequate Guide to Functional Programming
+https://mostly-adequate.gitbooks.io/mostly-adequate-guide/
+
+* Thinking in Ramda
+http://randycoulman.com/blog/categories/thinking-in-ramda/
+
+* Professor Frisby Introduces Composable Functional JavaScript
+https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript
+
+* Functors, Applicatives, And Monads In Pictures
+http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
+
+* Essential Functions Support
+https://mostly-adequate.gitbooks.io/mostly-adequate-guide/appendix_a.html
+
+---
+###  LINKS
+
+* Functional Programming HOWTO
+https://docs.python.org/3/howto/functional.html
+
+* Master the JavaScript Interview: What is Functional Programming?
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
+
+* The rise of functional programming & the decline of Angular 2.0
+http://blog.wolksoftware.com/the-rise-of-functional-programming-and-the-death-of-angularjs
+
+* JavaScript Functional Programming Cookbook (ES6)
+https://github.com/js-functional/js-funcional
+
+* Functional Programming in Javascript
+http://reactivex.io/learnrx/
+
+* Functional Programming with ECMAScript6
+http://www.zsoltnagy.eu/functional-programming-with-es6/
+
+* Functional Programming in JavaScript
+https://tech.shutterstock.com/2016/04/20/functional-programming-in-javascript/
+
+* Thinking Functionally with JavaScript
+https://www.slideshare.net/LuisAtencio3/thinking-functionally-with-javascript
+
+* functional programming
+https://www.slideshare.net/LuisAtencio3/379008rc217functionalprogramming
+
+* Ramda playground:
+http://ramdajs.com/repl/
+
+* functional-programming-for-the-advanced-beginner
+https://www.slideshare.net/LuisAtencio3/functional-programming-for-the-advanced-beginner
+
+* functional-programming-in-javascript (browsable book, exercises and code)
+https://livebook.manning.com/#!/book/functional-programming-in-javascript/chapter-1/10
+
+* Functional vs Imperative Patterns in JavaScript
+https://dev.to/joelnet/functional-vs-imperative-patterns-in-javascript-505h
+
 
 ---
 ### :100: <i>Thanks!</i>
