@@ -1,4 +1,4 @@
-# Functional Programming: "Functional mindset"
+# Functional Programming: "JS Functional mindset"
 
 
 "Everyone should go back to COBOL! Make America Procedural Again!"
