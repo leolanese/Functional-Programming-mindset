@@ -41,7 +41,8 @@ The only way to change the state is to emit an action, an object describing what
 * Changes are made with pure functions: 
 To specify how the state tree is transformed by actions, we write pure reducers.
 
-<sub><sub>https://redux.js.org/introduction/three-principles</sub></sub>
+
+* Further information: https://redux.js.org/introduction/three-principles
 
 
 ### ReactJS:
