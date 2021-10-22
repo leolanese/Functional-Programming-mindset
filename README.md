@@ -1,8 +1,7 @@
 # Functional Programming: "JS Functional mindset"
 
 
-"Everyone should go back to COBOL! Make America Procedural Again!"
-~ @anonymous
+> "Everyone should go back to COBOL! Make America Procedural Again!" ~ @anonymous
 
 
 A large program is a costly program, and not just because of the time, it takes to build. Size almost always involves complexity, and complexity could confuse programmers. Confused programmers, in turn, tend to introduce mistakes (bugs) into programs. Functional Programming can help to make the code predictable and easy to debug, abstract control flows and operations on data with functions.
