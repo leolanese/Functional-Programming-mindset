@@ -93,9 +93,9 @@ class MyComponent extends Component {
 
 ### Angular: 
 
-- `Have unidirectional data flow as well.` It has the option of [()] two-way data binding but it is not encouraged because of performance could becoming an issue as applications grew, and keeping track of the data flow could be an even bigger problem.
+* `Have unidirectional data flow as well.` It has the option of [()] two-way data binding but it is not encouraged because of performance could becoming an issue as applications grew, and keeping track of the data flow could be an even bigger problem.
 <br/>
-- `Strict immutability`: Angular gives us the option to utilize a centralized state tree with effortless cooperation of change detection property in the @Component decorator of ChangeDetectionStrategy property, by setting the .onPush() instead of the pre-defined .default() change detection strategy we are signing a contract with Angular that obliges us to work with immutable objects, so we explicitly telling Angular that our component only depends on its inputs and all of them are immutables.
+* `Strict immutability`: Angular gives us the option to utilize a centralized state tree with effortless cooperation of change detection property in the @Component decorator of ChangeDetectionStrategy property, by setting the .onPush() instead of the pre-defined .default() change detection strategy we are signing a contract with Angular that obliges us to work with immutable objects, so we explicitly telling Angular that our component only depends on its inputs and all of them are immutables.
 
 ```javascript
 @Component({
