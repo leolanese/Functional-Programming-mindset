@@ -14,7 +14,7 @@ Functional Programming it is not new, but becomes more popular these days, becau
 #### Frameworks and Libraries
 ReactJS and Angular (AngularJS and VueJS not covered here) are the most popular library and framework according to latest Google trends:
 
-![Alt Text](https://thepracticaldev.s3.amazonaws.com/i/wgari087tuw293mbi767.png)
+![Alt Text](https://thepracticaldev.s3.amazonaws.com/i/wgari087tuw293mbi767.png)* Data years 2019
 
 
 ---
