@@ -1,6 +1,5 @@
 # Functional Programming: "JS Functional mindset"
 
-
 > "Everyone should go back to COBOL! Make America Procedural Again!" ~ @anonymous
 
 
@@ -11,13 +10,10 @@ A large program is a costly program, and not just because of the time, it takes 
 Functional Programming it is not new, but becomes more popular these days, because lies at the heart of both of the dominant frameworks out there: <br/>
 <br/>
 
-#### Frameworks and Libraries
+## Frameworks and Libraries
 ReactJS and Angular (AngularJS and VueJS not covered here) are the most popular library and framework according to latest Google trends:
 
 ![Alt Text](https://thepracticaldev.s3.amazonaws.com/i/wgari087tuw293mbi767.png)* Data years 2019
-
-
----
 
 ## Functional Programming from ReactJS and Angular POV:
 Functional Programming is not new but becomes more popular these days because of lies at the heart of both of the dominant frameworks in the market:
@@ -26,7 +22,35 @@ Functional Programming is not new but becomes more popular these days because of
 
 ---
 
-#### First let's recap about what are the Redux principles:
+## Benefits of Functional Programming:
+
+- `Simplicity`: Functional programming emphasizes immutability, which makes it easier to reason about code and avoid bugs.
+
+- `Modularity`: Functions in functional programming are small and do one thing well, making it easy to reuse and compose them.
+
+- `Concurrency`: Because functions are immutable and don't have side effects, they can be easily parallelized and run concurrently.
+
+- `Easier testing`: Functions that are pure (have no side effects) are easy to test, as their output is determined solely by their input.
+
+- `Improved performance`: Functional programming can lead to improved performance through techniques like lazy evaluation and memoization.
+
+- `Better code readability`: Functional programming uses a declarative style, which makes it easier to understand and reason about code.
+
+- `Thread safety`: Immutable objects are useful in multi-threaded applications because multiple threads can act on the data of immutable objects without worrying about changes to the data by other threads. As immutable objects are closed to change, it is safe to assume that they will stay unchanged while we access the object from different threads.
+
+- `Referential transparency`: Referential transparency generally means that we can always replace a function with its return value without an effect on the application's behavior. Referential transparency is a guarantee of code reusability.
+
+- `Low coupling`: Coupling is the measure of code dependency. We always want to `reduce coupling` and make our code components as independent of each other as possible. Low coupling allows us to change a component without affecting other code components. Immutability helps in achieving low coupling. Immutable data can be safely passed through different code blocks without worrying about it being transformed and affecting other parts of the code. Pure functions transform the data and return the result without affecting the input data.
+
+- Failure atomicity: A class can be left in a broken state if it throws a runtime exception. Immutability prevents this problem. An object will never be left in a broken state because its state is modified only during its initialization. 
+
+- Parallelization: Immutability makes it easier to parallelize code execution as there are no conflicts among objects and instances.
+
+- State comparison:  The state of an application is the state of all its objects at a given time. The state changes rapidly over time, and an application needs to change state in order to continue running. Immutable objects, however, have a fixed state over time. Once created, the state of an immutable object does not change, 
+
+---
+
+#### Let's recap about what are the Redux principles:
 
 ##### Three Principles
 
