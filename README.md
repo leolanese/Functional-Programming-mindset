@@ -249,6 +249,8 @@ https://livebook.manning.com/#!/book/functional-programming-in-javascript/chapte
 * Functional vs Imperative Patterns in JavaScript
 https://dev.to/joelnet/functional-vs-imperative-patterns-in-javascript-505h
 
+* Swift Functional Programming - Second Edition
+(https://www.oreilly.com/library/view/swift-functional-programming/9781787284500/)
 
 ---
 ### :100: <i>Thanks!</i>
