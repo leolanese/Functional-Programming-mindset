@@ -18,7 +18,7 @@ ReactJS and Angular (AngularJS and VueJS not covered here) are the most popular 
 ## Functional Programming from ReactJS and Angular POV:
 Functional Programming is not new but becomes more popular these days because of lies at the heart of both of the dominant frameworks in the market:
 
-<sub><sub><em>Disclaimer: This is a just a brief point-of-view about the most obvious function programming influences inside these two tools. It will be definitely a lot more functional programming methodologies if we continue digging deeper, we are just scratching the surface.</em></sub></sub>
+<sub><em>Disclaimer: This is a just a brief point-of-view about the most obvious function programming influences inside these two tools. It will be definitely a lot more functional programming methodologies if we continue digging deeper, we are just scratching the surface.</em></sub>
 
 ---
 
