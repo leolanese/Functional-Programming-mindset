@@ -257,7 +257,6 @@ https://dev.to/joelnet/functional-vs-imperative-patterns-in-javascript-505h
 #### Now, don't be an stranger. Let's stay in touch!
 
 <a href="https://github.com/leolanese" target="_blank" rel="noopener noreferrer"><img src="https://scastiel.dev/api/image/leolanese?dark&removeLink" alt="leolanese’s GitHub image" width="600" height="314" />
-</a>
 
 ##### :radio_button: linkedin: <a href="https://www.linkedin.com/in/leolanese/" target="_blank">@LeoLanese</a>
 ##### :radio_button: Twitter: <a href="https://twitter.com/LeoLanese" target="_blank">@LeoLanese</a>
